@@ -32,7 +32,7 @@ namespace helloworld
                 return -1;
             }
 
-            return 0;
+            return res;
         }
     }
 }
