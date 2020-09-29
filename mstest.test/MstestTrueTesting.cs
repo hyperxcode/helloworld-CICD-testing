@@ -27,5 +27,13 @@ namespace helloworldmstest.test
             Assert.IsTrue(mathMethod.Opr(MathMethod.ENUM_OPR.MULTIPLY, 4.0, 2.0) == 8.0, "It is true");
             Assert.IsTrue(mathMethod.Opr(MathMethod.ENUM_OPR.DEVIDE, 2.0, 2.0) == 1.0, "It is true");
         }
+
+        [TestMethod]
+        public void MathMethod2()
+        {
+            MathMethod2 mathMethod = new MathMethod2();
+            Assert.IsTrue(mathMethod.SomeCaculate(MathMethod.ENUM_OPR.MINUS) == 2, "It is true");
+            
+        }
     }
 }

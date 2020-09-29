@@ -12,11 +12,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Jenkinsfile = Jenkinsfile
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "helloworldmstest.test", "helloworld.test\helloworldmstest.test.csproj", "{52264A0D-FF2E-4B80-ACB5-5B34BF788ED9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mstest.test", "mstest.test\mstest.test.csproj", "{52264A0D-FF2E-4B80-ACB5-5B34BF788ED9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "helloworldxunit.test", "helloworldxunit.test\helloworldxunit.test.csproj", "{06023471-3354-4C0D-9D32-D6D32911ED5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xunit.test", "xunit.test\xunit.test.csproj", "{06023471-3354-4C0D-9D32-D6D32911ED5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helloworldnunit.test", "helloworldnunit.test\helloworldnunit.test.csproj", "{324C2561-6D45-4304-BBD6-777EE58B89EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nunit.test", "nunit.test\nunit.test.csproj", "{324C2561-6D45-4304-BBD6-777EE58B89EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

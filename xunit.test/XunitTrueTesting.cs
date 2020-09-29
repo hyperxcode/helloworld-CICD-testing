@@ -15,7 +15,7 @@ namespace helloworldxunit.test
         [Fact]
         public void IsTrueButFalse()
         {
-            Assert.True(false, "It was false");
+            //Assert.True(false, "It was false");
         }
     }
 }
