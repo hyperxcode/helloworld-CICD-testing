@@ -1,3 +1,4 @@
+using helloworld;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace helloworldmstest.test
@@ -6,15 +7,25 @@ namespace helloworldmstest.test
     public class MstestTrueTesting
     {
         [TestMethod]
-        public void IsTrueAndTrue()
+        public void MathMethodInt()
         {
-            Assert.IsTrue(true, "It is true");
+            MathMethod mathMethod = new MathMethod();
+            Assert.IsTrue(mathMethod.Opr(MathMethod.ENUM_OPR.NULL, 1, 2) == 0, "It is true");
+            Assert.IsTrue(mathMethod.Opr(MathMethod.ENUM_OPR.ADD, 1, 2) == 3, "It is true");
+            Assert.IsTrue(mathMethod.Opr(MathMethod.ENUM_OPR.MINUS, 4, 2) == 2, "It is true");
+            Assert.IsTrue(mathMethod.Opr(MathMethod.ENUM_OPR.MULTIPLY, 4, 2) == 8, "It is true");
+            Assert.IsTrue(mathMethod.Opr(MathMethod.ENUM_OPR.DEVIDE, 2, 2) == 1, "It is true");
         }
 
         [TestMethod]
-        public void IsTrueButFalse()
+        public void MathMethodDouble()
         {
-            Assert.IsTrue(false, "It was false!");
+            MathMethod mathMethod = new MathMethod();
+            Assert.IsTrue(mathMethod.Opr(MathMethod.ENUM_OPR.NULL, 1.0, 2.0) == 0, "It is true");
+            Assert.IsTrue(mathMethod.Opr(MathMethod.ENUM_OPR.ADD, 1.0, 2.0) == 3.0, "It is true");
+            Assert.IsTrue(mathMethod.Opr(MathMethod.ENUM_OPR.MINUS, 4.0, 2.0) == 2.0, "It is true");
+            Assert.IsTrue(mathMethod.Opr(MathMethod.ENUM_OPR.MULTIPLY, 4.0, 2.0) == 8.0, "It is true");
+            Assert.IsTrue(mathMethod.Opr(MathMethod.ENUM_OPR.DEVIDE, 2.0, 2.0) == 1.0, "It is true");
         }
     }
 }
